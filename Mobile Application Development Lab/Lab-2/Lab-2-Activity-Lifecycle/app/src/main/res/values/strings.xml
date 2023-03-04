@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab-2-Activity-Lifecycle</string>
+    <string name="activity_text"> - The onCreate method is called when the activity is first created.\n\n
+ - The onStart method is called when the activity becomes visible to the user.\n\n
+ - The onResume method is called when the activity comes to the foreground and the user can start interacting with it.\n\n
+ - The onPause method is called when the activity is partially obscured by another activity, like when a dialog is shown.\n\n
+ - The onStop method is called when the activity is no longer visible to the user. \n\n
+ - The onDestroy method is called before the activity is destroyed.\n\n
+ - We are using Log.d method to log messages indicating when each lifecycle method is called, please check the output in the logcat in Android Studio.</string>
+</resources>
