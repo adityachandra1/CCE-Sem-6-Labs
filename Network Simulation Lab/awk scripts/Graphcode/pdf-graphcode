@@ -1,0 +1,10 @@
+set terminal png font 'Times-New-Roman,14'
+set output "pdf.png"
+load "pdf.png"
+set xrange [0.0000:5.0]
+set yrange [20:120]
+set xlabel "-- Time (seconds) -->" offset 0, 0.5
+set ylabel "--- PDF (%)-->" offset 1.0, 0
+plot "l3r1-pdf" using ($1):($2) title 'Average-PDF' with linespoints ls 1,
+#plot "< sort -k1 graph-Throughput" using ($1):($2) title 'UDP' with linespoints ls 1,	
+set output
